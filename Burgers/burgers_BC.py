@@ -11,7 +11,7 @@ from scipy.optimize import least_squares
 np.random.seed(1234)
 tf.random.set_seed(1234)
 
-class RJ_PINNs:
+class RJF:
     def __init__(self, X, u, X_bc0, X_bc1, X_ic, layers):
 
         self.x = X[:, 0:1]
@@ -231,7 +231,7 @@ if __name__ == "__main__":
     #u_train = u_train + noise*np.std(u_train)*np.random.randn(u_train.shape[0], u_train.shape[1])
 
 
-    model = RJ_PINNs(X_u_train, u_train,
+    model = RJF(X_u_train, u_train,
                      X_train_bc0, X_train_bc1, X_train_ic, layers)
     model.train()
 
