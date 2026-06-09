@@ -224,11 +224,11 @@ if __name__ == "__main__":
     X_bc1   = np.hstack([X[:, -1].flatten()[:, None], T[:, -1].flatten()[:, None]])
     idx_bc1 = np.random.choice(X_bc1.shape[0], 100, replace=False)
     X_train_bc1 = X_bc1[idx_bc1]
-    noise = 0.1 #   
+    #noise = 0.1 #   
 
 
     #Add Noise
-    u_train = u_train + noise*np.std(u_train)*np.random.randn(u_train.shape[0], u_train.shape[1])
+    #u_train = u_train + noise*np.std(u_train)*np.random.randn(u_train.shape[0], u_train.shape[1])
 
 
     model = RJ_PINNs(X_u_train, u_train,
