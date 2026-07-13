@@ -19,7 +19,8 @@ RJF (Residual–Jacobian Framework) is an evolution and generalization of RJ-PIN
 
 RJ-PINNs introduced the residual–Jacobian formulation for Physics-Informed Neural Networks by reformulating PINN optimization as a residual least-squares problem and exploiting the Jacobian of the residuals. RJF extends this idea beyond PINNs by providing a more general framework for multi-objective learning problems in Artificial Intelligence and Scientific Machine Learning.
 
-The original RJ-PINNs work is available as:
+Until the final publication of RJF is available, users of the RJ-PINNs methodology are encouraged to cite the original RJ-PINNs work:
 
-Dadesso, Dadoyi. "Residual Jacobian Physics-Informed Neural Networks (RJ-PINNs) for improved convergence and stability." Available at SSRN:
-https://ssrn.com/abstract=5506728
+Dadesso, Dadoyi. "Residual Jacobian Physics-Informed Neural Networks (RJ-PINNs) for improved convergence and stability."  
+Available at SSRN: https://ssrn.com/abstract=5506728  
+DOI: http://dx.doi.org/10.2139/ssrn.5506728
