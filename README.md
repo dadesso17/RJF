@@ -1,4 +1,4 @@
-# RJF: A Residual--Jacobian Framework for Multi-Objective Optimization with applications to Physics-Informed Neural Networks
+# RJF: A Residual--Jacobian Framework for Multi-Objective Optimization with applications to Physics-Informed Learning
 
 
 
