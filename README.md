@@ -25,8 +25,7 @@ RJ-PINNs introduced the residual–Jacobian formulation for Physics-Informed Neu
 
 
 
-Until the final publication of RJF is available, users of the RJ-PINNs methodology are encouraged to cite the original RJ-PINNs work:
+**Please cite RJF if you use it:**
 
-Dadesso, Dadoyi. "Residual Jacobian Physics-Informed Neural Networks (RJ-PINNs) for improved convergence and stability."  
-Available at SSRN: https://ssrn.com/abstract=5506728  
-DOI: http://dx.doi.org/10.2139/ssrn.5506728
+
+ Dadesso, Dadoyi, RJF: A Residual--Jacobian Framework for Multi-Objective Optimization with Applications to Physics-Informed Learning (June 10, 2026). Available at SSRN: https://ssrn.com/abstract=5506728 or http://dx.doi.org/10.2139/ssrn.5506728 
